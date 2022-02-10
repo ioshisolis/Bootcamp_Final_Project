@@ -1,8 +1,10 @@
 # Bootcamp_Final_Project
 
-## Selected topic
+## Selected topic:
+- Sentiment analysis with Twitter
 
 ## Reason why they selected their topic
+- 
 
 ## Description of their source of data
 
