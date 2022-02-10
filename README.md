@@ -2,6 +2,9 @@
 
 ## Selected topic:
 - Sentiment analysis with Twitter
+-   Revocación de mandato
+-   Quintana Roo
+-   (pendiente)
 
 ## Reason why they selected their topic
 - 
