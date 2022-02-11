@@ -10,6 +10,8 @@
 - 
 
 ## Description of their source of data
+- Web scraping from twitter
+- Twitter API
 
 ## Questions they hope to answer with the data
 
