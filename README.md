@@ -143,9 +143,20 @@ As a team we have stablished four channels of communication.
 
 <details><summary>Segment 1</summary>
  
+  Provisional database accomplishes the following:
+  - Sample data that mimics the expected final database structure or schema
+  - Draft machine learning module is connected to the provisional database
+  
+  Important Questions
   - Data Types of each column
   - Description of each column
   - Why are we using this data?
+  
+| Columns      | Data Type | Description |
+| :---         |  :---:    |    :--- |
+| Tweet        | text      | With Twitter AIP with get tweets only in text format  |
+| Likes        | integer   | In tweeter each like represents how many people show appreaciation for the like      |
+  
   
 </details>
 
@@ -183,3 +194,9 @@ As a team we have stablished four channels of communication.
 </details>
 
 ## Summary
+
+<details><summary>CRISP Pocess Diagram</summary>
+  
+![CRISP-DM_Process_Diagram](https://user-images.githubusercontent.com/37987602/153728408-92d4675f-3d55-4068-94ca-8ff9974e0c97.png)
+
+</details>
