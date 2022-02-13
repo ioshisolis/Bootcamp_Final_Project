@@ -147,15 +147,39 @@ As a team we have stablished four channels of communication.
   - Sample data that mimics the expected final database structure or schema
   - Draft machine learning module is connected to the provisional database
   
-  Important Questions
-  - Data Types of each column
+  Important Questions:
+
+  - ### Data Types of each column
+    - ### Twitter_data Table
+        This Table will Hold de Tweet Text scrapped by certain Keyword, and a ML algorithm will cluster it by sentiment.   
+
+        | Columns      | Data Type | Description |
+        | :---         |  :---:    |    :--- |
+        | Index        | Serial Int      | Row Count |
+        | User         | String   | The Screen Name of the user     |
+        | User_id      | Integer   | The unique user_id Tweeter gives to each member    |
+        | Tweet        | String  | The Actual Tweet of the User   |      
+        | Sentiment      | String   | The cluster Assigned by ML algorithm  |
+
+
+    - ### User_Data Table
+      This Table will Hold the information about the user that post the tweets.
+
+      | Columns      | Data Type | Description |
+      | :---         |  :---:    |    :--- |
+      | Index        | Serial Int      | Row Count |
+      | User_id      | Integer   | The unique user_id Tweeter gives to each member    |
+      | Re-tweet Count       | Integer  | The numer of Re-tweets a tweets had |      
+      | Location      | String   | The City and Country of the user |
+      | Verified_Account     | Boolean   | It shows if a Twitter Account is verified  |
+      |Geo_Enabled      | Boolean   | Shows if the user had enabled the geo location |  
+      | Lang      | String   | Language of the Tweet|          
+
+      
   - Description of each column
   - Why are we using this data?
   
-| Columns      | Data Type | Description |
-| :---         |  :---:    |    :--- |
-| Tweet        | text      | With Twitter AIP with get tweets only in text format  |
-| Likes        | integer   | In tweeter each like represents how many people show appreaciation for the like      |
+
   
   
 </details>
