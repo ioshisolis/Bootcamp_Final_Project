@@ -146,7 +146,7 @@ As a team we have stablished four channels of communication.
   Provisional database accomplishes the following:
   - Sample data that mimics the expected final database structure or schema
   - Draft machine learning module is connected to the provisional database
-  
+
   Important Questions:
 
   - ### Data Types of each column
@@ -175,11 +175,26 @@ As a team we have stablished four channels of communication.
       |Geo_Enabled      | Boolean   | Shows if the user had enabled the geo location |  
       | Lang      | String   | Language of the Tweet|          
 
+
+
+  - Why are we using this data?
+
+    The twitter_data table stores the text of the tweets collected on a keyword, with the aim of classifying the data to find out the general feeling of the community on twitter about a topic.
+
+    The User_data table stores user data. These data help us to filter the information by languages ​​or number of followers as well as their location to know where more than one specific topic is discussed.
+
+    ## Test Join 
+
+        SELECT *
+        FROM "Twitter_data"
+        INNER JOIN "User_Data"
+        On "User_Data"."User_id" = "Twitter_data"."User_id";
+
+    ![JOIN](https://github.com/ioshisolis/Bootcamp_Final_Project/blob/main/Data/DB_Join.png)
+
       
   - Description of each column
   - Why are we using this data?
-  
-
   
   
 </details>
