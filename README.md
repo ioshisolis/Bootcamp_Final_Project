@@ -176,6 +176,7 @@ As a team we have stablished four channels of communication.
       | Lang      | String   | Language of the Tweet|          
 
 
+
   - Why are we using this data?
 
     The twitter_data table stores the text of the tweets collected on a keyword, with the aim of classifying the data to find out the general feeling of the community on twitter about a topic.
@@ -190,8 +191,10 @@ As a team we have stablished four channels of communication.
         On "User_Data"."User_id" = "Twitter_data"."User_id";
 
     ![JOIN](https://github.com/ioshisolis/Bootcamp_Final_Project/blob/main/Data/DB_Join.png)
-  
 
+      
+  - Description of each column
+  - Why are we using this data?
   
   
 </details>
