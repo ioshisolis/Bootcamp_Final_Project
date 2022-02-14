@@ -192,9 +192,7 @@ As a team we have stablished four channels of communication.
 
     ![JOIN](https://github.com/ioshisolis/Bootcamp_Final_Project/blob/main/Data/DB_Join.png)
 
-      
-  - Description of each column
-  - Why are we using this data?
+     
   
   
 </details>
