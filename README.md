@@ -2,12 +2,12 @@
 
 ## Overview
 
-The scope of our final project consists on using multiple technologies to accomplish real world assigments for potential clients. During a three week period our team will complete certain tasks that are detailed by category and dates, from planning to executing and presenting our final results. 
+The scope of our final project consists of using multiple technologies to accomplish real world assignments for potential clients. During a four-week period our team will complete certain tasks that are detailed by category and dates, from planning to executing and presenting our results.
 
 
 ### Team
 
-As a team we decided to apply the next team roles for the entire project. The main reason being that this is a one time short-project where we neew to be focus on the task at hand by being efficient and effective with as little time as possible.
+As a team we decided to apply the next team roles for the entire project. The main reason being that this is a one-time short project where we need to be focus on the task at hand by being efficient and effective with as little time as possible.
 
 <details><summary>Team Members</summary>
 
@@ -27,7 +27,8 @@ As a team we decided to apply the next team roles for the entire project. The ma
   
 ## Results
 
-The rubric of the project was divided in to four segments, with different tasks to be completed. We decided it to showcase our progress accordingly. Therefore our results are dived it in to the following categories: Presentation, GitHub, Machine Learning, Data Base and Dashboard. 
+The rubric of the project was divided in to four segments with different tasks to be completed. We decided it to showcase our progress accordingly, therefore our results are dived it in to the following categories: Presentation, GitHub, Machine Learning, Data Base and Dashboard.
+
 
 ### Presentation
 
@@ -37,26 +38,27 @@ The rubric of the project was divided in to four segments, with different tasks 
 - Get Twitter data through an API to perform sentiment analysis with machine learning 
 
 #### Reason why they selected their topic
-- The project consists on building a tool that can analyze tweet sentiment on specific words, based on machine learing. The user would be able to look for certain hashtags, then extrack the tweets that talk about that specific subject, apply a nlp machine learnign model to categorize the sentiment of the tweets. We have consider different potential users such as:
+- The project consists of building a tool that can analyze tweet sentiment on specific words, based on machine learning. The user would be able to look for certain hashtags, then extracts the tweets that talk about that specific subject, apply the machine learning model to categorize the sentiment of the tweets. We have considered different potential users such as:
+  
   - Non-profits
   - Government Agencies
   - Politicians
   - Companies 
-  - Social Responsability
+  - Social Responsibility
 
 #### Description of their source of data
 - Our data from twitter comprehends tweets, like, retweets, and location
 
 #### Questions they hope to answer with the data
-- What do peopole think about a particular subject?
+- What do people think about a particular subject?
 - What is the tweet with the most reach?
-- What is the location of the users with a positve feeling about the tweet?
-- What is the location of the users with a negative feeling about the tweet
+- What is the location of the users with a positive feeling about the tweet?
+- What is the location of the users with a negative feeling about the tweet?
 
 #### Description of the communication protocols
 As a team we have stablished four channels of communication. 
-  - Slack Conversaitons 
-    - One to one conversaiots (bilingual writing)
+  - Slack Conversations 
+    - One to one conversations (bilingual writing)
     - Team 5 personal chat (only team members, bilingual writing)
     - Chat with TA´s and Instructor as moderators (write in english)
   - Google Meet Quick Meeting 
@@ -64,7 +66,7 @@ As a team we have stablished four channels of communication.
     - 15 to 20 min meeting 
     - We use this meeting to touch base on important issues during the day and to create pull request and merge to the main branch
   - Class Time Meetings through Zoom 
-    - Tuesdays and Thurdays we get together during class time to discuss more in depth our project, also reliying on the assistance of our TA.
+    - Tuesdays and Thursdays we get together during class time to discuss more in depth our project, also relying on the assistance of our TA.
     - Saturdays for the Office Hours (OPTIONAL)
   - Extraordinary meeting 
     - This are schedule ahead of time through slack one to one, or in our personal chat. 
@@ -89,7 +91,7 @@ As a team we have stablished four channels of communication.
 
 <details><summary>Segment 1</summary>
   
-  Our first week includes a README.md file that includes a description of the [communicaiont protocols](https://github.com/ioshisolis/Bootcamp_Final_Project/edit/main/README.md#description-of-the-communication-protocols), individual branches and four commits per team member. 
+  Our first week includes a README.md file that includes a description of the [communication protocols](https://github.com/ioshisolis/Bootcamp_Final_Project/edit/main/README.md#description-of-the-communication-protocols), individual branches and four commits per team member. 
   
   #### Individual Branches 
   ![Branches](https://user-images.githubusercontent.com/37987602/153726614-b1cd7dfb-d9ba-4415-86d5-b8c027b03d45.png)
@@ -120,7 +122,7 @@ As a team we have stablished four channels of communication.
   - Outputs label(s) for input data
   
   Important Questions
-   - Why are we using this machine learning model
+   - Why are we using this machine learning model?
    - NLP
     - List of Stop Words (Words to ignore) and why
   
@@ -150,7 +152,7 @@ As a team we have stablished four channels of communication.
   Important Questions:
 
   - ### Data Types of each column
-    - ### Twitter_data Table
+    - ### Twitter data Table
         This Table will Hold de Tweet Text scrapped by certain Keyword, and a ML algorithm will cluster it by sentiment.   
 
         | Columns      | Data Type | Description |
@@ -162,7 +164,7 @@ As a team we have stablished four channels of communication.
         | Sentiment      | String   | The cluster Assigned by ML algorithm  |
 
 
-    - ### User_Data Table
+    - ### User Data Table
       This Table will Hold the information about the user that post the tweets.
 
       | Columns      | Data Type | Description |
@@ -214,8 +216,8 @@ As a team we have stablished four channels of communication.
 
 <details><summary>Segment 1</summary>
   
-  No work was done on the first week. The person in charge had to do research on best practices and portential capabilities for our dashboard. 
-  
+  ![Dashboard_FirstDraft](https://user-images.githubusercontent.com/37987602/153799300-8ecf4995-cb17-4f25-b419-0b47c25c9046.jpeg)
+
 </details>
 
 <details><summary>Segment 2</summary>
