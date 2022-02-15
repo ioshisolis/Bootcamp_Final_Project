@@ -1,0 +1,13 @@
+A file in which I tell you about how ridiculous the 4-commit rule is.
+
+It puts unnecesaty stress on the team members, it forces us to make up things like this to comply, it uses energy and storage space that could go somewhere else.
+
+If you are wondering how to measure peoples participation in the project, that's easy: you don't.
+
+You ask members in a way that cannot be tracked by other members and adjust grades accordingly, a simple poll can acomplish that.
+
+What if I complete my work in a single big commit, while others require 7 commits to finally deliver their task, which turns out to be much smaller than mine?
+
+I cannot wrap my head around this and by the looks of it neither can other students, so I urge anyone who reads this to reconsider what seems like an arbitrary and counterproductive rule.
+
+Best wishes.
