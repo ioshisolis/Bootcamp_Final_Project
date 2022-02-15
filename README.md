@@ -456,6 +456,8 @@ As a team we have stablished four channels of communication.
 
 <details><summary>Segment 1</summary>
   
+For this first segment, we schetched out the first draft of the dashboard to get a visual representation on how the data should be prepare in order to be presented at the last stage.
+
   ![Dashboard_FirstDraft](https://user-images.githubusercontent.com/37987602/153799300-8ecf4995-cb17-4f25-b419-0b47c25c9046.jpeg)
 
 </details>
