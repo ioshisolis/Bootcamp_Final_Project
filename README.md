@@ -133,7 +133,7 @@ As a team we have stablished four channels of communication.
    - NLP
     - List of Stop Words (Words to ignore) and why
     According to Digital Tracking specialist, computer scientist and Master in systems analytics Gabriel Landaeta K., while dealing with tweets in spanish we must consider a number of words that do not add value to the analysis because they are not directly linked with an actual sentiment, but rather are only used as conectors that humans (and not computers) understand. These words are:
-
+     ```
       a
       acá
       ahí
@@ -366,7 +366,7 @@ As a team we have stablished four channels of communication.
       y
       ya
       yo
-      
+      ```
 
   
 </details>
