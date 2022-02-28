@@ -32,6 +32,8 @@ The rubric of the project was divided in to four segments with different tasks t
 
 ### Presentation
 
+https://docs.google.com/presentation/d/1mLjjnq5bFfYdqnkWDMU-8ioWCNJDzz2DnzwazVJTAno/edit?usp=sharing
+
 <details><summary>Segment 1</summary>
   
 #### Selected topic:
