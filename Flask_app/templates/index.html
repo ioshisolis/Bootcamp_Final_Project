@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+<style>
+body {
+  background:rgb(255, 255, 255);
+  font-family: "Open Sans", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  line-height: 1.5em;
+  position: absolute;
+  height: 100%; 
+  width: 100%;}
+
+.clear {
+  clear: both; }
+
+.display-none {
+  display: none !important; }
+.box{
+	align-self: left;
+	align-content: center;
+	background-color: rgb(255, 255, 255, 0.1);
+}
+
+
+
+.item-title {
+  position: absolute;
+  z-index: 0;
+  left: 90;
+  padding: 20;
+  top: 55vh;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  visibility: visible; }
+  .item-title p {
+    color: #F8F8F8;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 15px; }
+
+p.copyright {
+  bottom: 0;
+  right: 15px;
+  height: 30px;
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.657);
+  padding: 0 15px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: right;
+  position: fixed;
+
+  visibility: visible; }
+
+.brand-logo { 
+  align-self: center;
+  max-width: 170px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px; }
+
+
+  .center {
+
+    width: 100%;
+    padding: 10px;
+  }
+
+input[type=text], select {
+  width: 30%;
+  padding: 16px 20px;
+  margin: 80px 0;
+  display: inline-block;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  opacity: 80%;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 20%;
+  right: 50%;
+  top: 90%;
+  position:absolute;
+  padding: 16px 20px;
+  align-self: left;
+  margin: 80px 80;
+  display: inline-block;
+  border: 2px solid rgba(0, 0, 0, 0.993);
+  border-radius: 40px;
+  opacity: 80%;
+  box-sizing: border-box;
+}
+
+.loading-part {
+  position: fixed;
+  background: #f2f3f7;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999; }
+  .loading-part .loader-part {
+    min-height: 100%;
+    min-width: 100%; }
+    .loading-part .loader-part .loader-circle {
+      width: 32px;
+      height: 32px;
+      clear: both;
+      margin: 0 auto 5px;
+      position: relative;
+      top: calc(50% - 16px);
+      -webkit-transform-origin: 50% 50%;
+      -moz-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      -o-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      border-top: 16px rgba(43, 45, 53, 0.75) solid;
+      border-left: 16px rgba(43, 45, 53, 0.25) solid;
+      border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+      border-right: 16px rgba(43, 45, 53, 0.25) solid;
+      -webkit-animation: spSlices 1s infinite linear;
+      -moz-animation: spSlices 1s infinite linear;
+      animation: spSlices 1s infinite linear; }
+@-webkit-keyframes spSlices {
+  0% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  25% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.75) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  50% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.75) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  75% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.75) solid; }
+  100% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; } }
+@-moz-keyframes spSlices {
+  0% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  25% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.75) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  50% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.75) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  75% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.75) solid; }
+  100% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; } }
+@keyframes spSlices {
+  0% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  25% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.75) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  50% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.75) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  75% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.75) solid; }
+  100% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; } }
+    .loading-part .loader-part .loader-text {
+      color: rgba(10, 26, 36, 0.8);
+      position: absolute;
+      top: calc(60% + 24px);
+      padding-left: 6px;
+      width: 100%;
+      text-align: center;
+      font-size: 25px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 5px; }
+
+</style>
+
+	<head>
+		<meta charset="utf-8">
+        <title>Team 5</title>
+        <!-- ============== Resources style ============== -->
+		<link rel="stylesheet" href="../static/styles/style-2.css" />
+	</head>
+	
+	<body>
+
+		<div class="loading-part animated-quick">
+
+			<div class="loader-part opacity-0 animated-quick">
+
+				<div class="loader-circle"></div>
+				<div class="loader-text"> Team 5</div>
+
+			</div>
+
+		</div>
+
+		
+		<section id="home-part" >
+
+			<div class="overlay">
+				<canvas id="constellation"></canvas>
+			</div>
+
+			<div class="item-title">
+
+				<!-- Your logo -->
+				<img src="../static/logo.png" alt="" class="brand-logo"/>
+
+				<div id="countdown_dashboard">
+
+					<h1 class="text-news">Twitter Analysis</h1>	
+					
+					
+				</div>			
+				<div class="box " >  
+					<form name="passdata" action="." method="post" >
+						<input type="text" id="data" name="data" placeholder="Give me a Keyword">
+						<input type="number"  name="data_1" placeholder="How many tweets?">
+						<input type="submit" value="submit" > 
+					</form>
+				
+				</div>
+	
+									
+
+			</div>
+
+
+
+		</section> <!-- CLOSE #home-part -->
+
+
+
+		<!-- Copyright -->
+		<p class="copyright">#Team 5</p>
+
+
+	<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ********** Resources jQuery ********** -->
+    <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+	
+	<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+
+
+	<!-- Main JS File -->
+	<script src="../static/jquery.min.js"></script>
+
+	<script src="../static/constellation.js"></script>
+	<!-- Constellation plugin 	<script src="../static/constellation.js"></script> -->
+
+
+	<script src="../static/main.js"></script>
+	<!-- Main JS File 	<script src="../static/main.js"></script>-->
+
+
+
+
+	<script type='text/javascript' src='https://prod-useast-a.online.tableau.com/javascripts/api/viz_v1.js'></script>
+	<div class='tableauPlaceholder' ,style=width: 1280px; height: 641px;><object class='tableauViz' width='1280' height='641' 
+		style='display:none;'><param name='host_url' value='https%3A%2F%2Fprod-useast-a.online.tableau.com%2F' /> 
+		<param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;twittersentimentanalysis' />
+		<param name='name' value='TweetsPrueba&#47;TweetsPrueba' />
+		<param name='tabs' value='no' /><param name='toolbar' value='yes' />
+		<param name='showAppBanner' value='false' /></object></div>
+	</script>
+
+
+
+
+	</body>
+
+</html>
