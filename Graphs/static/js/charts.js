@@ -1,11 +1,11 @@
 var diameter = 400
 
 var color = d3.scaleOrdinal()
-    .range(["#75bde0", "#97dbae", "#cde4ad"])
+    .range(["#f2f2f2", "#2ed199", "#6487a5"])
 
 var pack = d3.pack()
   .size([diameter, diameter])
-  .padding(2)
+  .padding(5)
 
 var vis = d3.select("#svgid").append("svg")
   .attr("width", diameter)
@@ -40,15 +40,10 @@ d3.csv("tweets.csv", function(data) {
         
       })
    
-    node.append("text")
-        .text(function (d) {return d.name; });
-
-    node.exit().remove();
-
   }
- 
+
   rank(tweets);
 
-  
+  console.log(root.name);
   
 })
