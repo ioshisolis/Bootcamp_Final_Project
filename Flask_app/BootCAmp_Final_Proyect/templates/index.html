@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en-us" class="no-js">
+
+<style>
+
+
+.clear {
+  clear: both; }
+
+.display-none {
+  display: none !important; }
+.box{
+	align-self: left;
+
+}
+
+
+
+.item-title {
+  position: absolute;
+  z-index: 0;
+  left: 90;
+  padding: 20;
+  top: 55vh;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+  visibility: visible; }
+  .item-title p {
+    color: #00ffcd;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 15px; }
+
+p.copyright {
+  bottom: 0;
+  right: 15px;
+  height: 30px;
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.657);
+  padding: 0 15px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: right;
+  position: fixed;
+
+  visibility: visible; }
+
+.brand-logo { 
+  align-self: center;
+  max-width: 170px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px; }
+h1 {
+ color: #00ffcd;
+ font-size: 60px;
+
+}
+
+
+  .center {
+
+    width: 100%;
+    padding: 10px;
+  }
+
+input[type=text], select {
+  width: 30%;
+  padding: 16px 20px;
+  margin: 80px 0;
+  display: inline-block;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  opacity: 80%;
+  box-sizing: border-box;
+}
+
+input[type=number], select {
+  width: 20%;
+  right: 50%;
+  top: 90%;
+  position:absolute;
+  padding: 16px 20px;
+  align-self: left;
+  margin: 80px 80;
+  display: inline-block;
+  border: 2px solid rgba(0, 0, 0, 0.993);
+  border-radius: 40px;
+  opacity: 80%;
+  box-sizing: border-box;
+}
+
+.loading-part {
+  position: fixed;
+  background: #f2f3f7;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999; }
+  .loading-part .loader-part {
+    min-height: 100%;
+    min-width: 100%; }
+    .loading-part .loader-part .loader-circle {
+      width: 32px;
+      height: 32px;
+      clear: both;
+      margin: 0 auto 5px;
+      position: relative;
+      top: calc(50% - 16px);
+      -webkit-transform-origin: 50% 50%;
+      -moz-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      -o-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      border-top: 16px rgba(43, 45, 53, 0.75) solid;
+      border-left: 16px rgba(43, 45, 53, 0.25) solid;
+      border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+      border-right: 16px rgba(43, 45, 53, 0.25) solid;
+      -webkit-animation: spSlices 1s infinite linear;
+      -moz-animation: spSlices 1s infinite linear;
+      animation: spSlices 1s infinite linear; }
+@-webkit-keyframes spSlices {
+  0% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  25% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.75) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  50% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.75) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  75% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.75) solid; }
+  100% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; } }
+@-moz-keyframes spSlices {
+  0% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  25% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.75) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  50% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.75) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  75% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.75) solid; }
+  100% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; } }
+@keyframes spSlices {
+  0% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  25% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.75) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  50% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.75) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; }
+  75% {
+    border-top: 16px rgba(43, 45, 53, 0.25) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.75) solid; }
+  100% {
+    border-top: 16px rgba(43, 45, 53, 0.75) solid;
+    border-right: 16px rgba(43, 45, 53, 0.25) solid;
+    border-bottom: 16px rgba(43, 45, 53, 0.25) solid;
+    border-left: 16px rgba(43, 45, 53, 0.25) solid; } }
+    .loading-part .loader-part .loader-text {
+      color: rgba(10, 26, 36, 0.8);
+      position: absolute;
+      top: calc(60% + 24px);
+      padding-left: 6px;
+      width: 100%;
+      text-align: center;
+      font-size: 25px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 5px; }
+  .button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #1DA1F2;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {background-color: #1a7bb6}
+
+.button:active {
+  background-color: #2460a0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button_loc{
+
+  position: absolute;
+  top: 90%;
+  left: 55%;
+
+}
+</style>
+
+	<head>
+		<meta charset="utf-8">
+        <title>Team 5</title>
+        <!-- ============== Resources style ============== -->
+		<link rel="stylesheet" href="../static/styles/style-2.css" />
+	</head>
+	
+	<body>
+
+		<div class="loading-part animated-quick">
+
+			<div class="loader-part opacity-0 animated-quick">
+
+				<div class="loader-circle"></div>
+				<div class="loader-text"> Team 5</div>
+
+			</div>
+
+		</div>
+
+		
+		<section id="home-part" >
+
+			<div class="overlay">
+				<canvas id="constellation"></canvas>
+			</div>
+
+			<div class="item-title">
+
+				<!-- Your logo -->
+				<img src="../static/logo.png" alt="" class="brand-logo"/>
+
+				<div id="countdown_dashboard">
+
+					<h1>Twitter  Analysis</h1>	
+					
+					
+				</div>			
+				<div class="box " >  
+					<form name="passdata" action="." method="post" >
+						<input type="text" id="data" name="data" placeholder="Give me a Keyword">
+						<input type="number"  name="data_1" placeholder="How many tweets?">
+          <div class="button_loc">
+            <button class="button" type="submit" value="submit">Go</button> 
+          </div>
+					</form>
+
+				</div>
+ 
+
+									
+  
+
+			</div>
+
+      <div id="map"></div>
+
+		</section> <!-- CLOSE #home-part -->
+
+
+
+		<!-- Copyright -->
+		<p class="copyright">#Team 5</p>
+
+
+	<!-- ///////////////////\\\\\\\\\\\\\\\\\\\ -->
+    <!-- ********** Resources jQuery ********** -->
+    <!-- \\\\\\\\\\\\\\\\\\\/////////////////// -->
+	
+	<!-- * Libraries jQuery, Easing and Bootstrap - Be careful to not remove them * -->
+
+
+	<!-- Main JS File -->
+	<script src="../static/jquery.min.js"></script>
+
+	<script src="../static/constellation.js"></script>
+	<!-- Constellation plugin 	<script src="../static/constellation.js"></script> -->
+
+
+	<script src="../static/main.js"></script>
+	<!-- Main JS File 	<script src="../static/main.js"></script>-->
+
+
+
+
+
+	</body>
+
+</html>

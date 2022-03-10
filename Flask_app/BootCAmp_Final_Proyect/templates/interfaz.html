@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://d3js.org/d3.v4.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.rawgit.com/imranghory/treemap-squared/master/min/treemap-squared-0.5.min.js"></script></head>
+
+    <title>Team 5 </title>
+</head>
+
+<body>
+ 
+
+
+    
+<section id='home-part'>
+  <div id="Section">
+    <p>Sentiment Anlaysis About {{d}} </p>
+    <img class="img_logo"   src="../static/twitter_logo.png" alt="">
+
+  </div>
+
+      <div id="tt_title">
+      </div>
+
+
+
+  <div id="wc_title">
+    Most Frequent Words
+
+    <hr style="width:50%;text-align:left;margin-left:0;color: blue; ">
+
+
+  
+
+  </div>
+  <div id="svgid">
+  <br>
+
+    </div>
+
+    <div id="Text_luz">
+        <div id="Text">Negative  </div>
+        <div id="Value">{{neg_tw}}% </div>
+    </div>
+    <div id="Text_luz2">
+      <div id="Text">Positive  </div>
+      <div id="Value">{{pos_tw}}% </div>
+    </div>
+    <div id="Text_luz3">
+      <div id="Text">Total  </div>
+      <div id="Value">{{RT_count}} </div>
+    </div>
+      <section id="contenedor1">
+        <div id="my_dataviz"></div>
+  
+  
+
+
+<div id="myDiv" ></div>
+
+
+
+
+
+</section>
+
+
+  <form action="http://127.0.0.1:5500/templates/map.html">
+    <button class="button" type="submit" value="submit">Go to Map</button> 
+  </form>
+
+  
+<script src="../static/test.js"></script>
+
+
+   <!-- Luz-->
+
+<script src="../static/charts.js"></script>
+<script src="../static/words_cloud_data.js"></script>
+<script src="../static/words_cloud_logic.js"></script>
+   <!-- .................-->
+<link rel= "stylesheet" href=  "../static/css/main.css">
+
+
+</body>
+</html>
