@@ -1,0 +1,235 @@
+
+body{
+  background-color: white;
+}
+.img_logo {
+   padding-top: 4%;
+   padding-left: 20%;
+    max-width: 7%;
+    height:7%;
+  
+
+  }
+
+p{
+    position: absolute;
+    font-size: 50px;
+    padding-left: 30%;
+    margin-top: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+#Section{
+background-color: #092a5c;
+padding-bottom: 50px;
+
+}
+
+#contenedor{
+ height: 100%;
+ width: 100%;
+
+}
+
+
+#wc_title{
+  font-size: 30px;
+  margin-top: 70px;
+  margin-left: 1%;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 1%;
+  color: #092a5c;
+
+
+ 
+ }
+
+#tt_title{
+  position: absolute;
+  float: right;
+  font-size: 22px;
+  padding-left: 60%;
+  margin-top: 5%;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#tt_count{
+  position: absolute;
+  float: right;
+  font-size: 50px;
+  padding-left: 60%;
+  margin-top: 5%;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#contenedor1{
+  height: 50%;
+  width: 100%;
+  font-size: large;
+ 
+ }
+
+#my_info{
+
+font-style: italic;
+
+} 
+
+#my_dataviz{
+
+  text-align:left;
+
+
+}
+  
+
+#svgid{
+position: absolute;
+padding-left: 60%;
+
+
+}
+
+.box {
+  
+  height: 20px;
+  width: 20px;
+
+
+
+}
+
+.blue {
+  background-color: black;
+}
+
+.green {
+  background-color: #2ed199;
+}
+
+.yellow {
+  background-color: #092a5c;
+  float: left;
+}
+
+
+center{
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #1DA1F2;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button:hover {background-color: #1a7bb6}
+
+.button:active {
+  background-color: #2460a0;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button_loc{
+
+  position: absolute;
+  top: 90%;
+  left: 55%;
+
+}
+
+#Text_luz{
+
+  position: absolute;
+  font-size: 40px;
+  margin-top: 27%;
+  margin-left: 87%;
+  color:#092a5c;
+}
+
+#Text_luz2{
+
+  position: absolute;
+  font-size: 40px;
+  margin-top: 7%;
+  margin-left: 55%;
+  color:#092a5c;
+}
+
+#Text_luz3{
+
+  position: absolute;
+  font-size: 40px;
+  margin-left: 85%;
+  color:#092a5c;
+}
+#Value{
+  color: #092a5c;
+  font-size: 50px;
+}
+
+
+#mapid {
+  width: 100%;
+  height: 900px;
+
+  margin: 5px;
+}
+
+.jumbotron{
+  /*background: url("../images/bacteria.jpg") no-repeat center center;*/
+  color: rgb(28, 200, 243);
+  background-size: cover;
+  /* opacity: 0.5; */
+}
+
+#jumbo2 {
+  color: rgb(20, 192, 155);
+  background-size: cover;
+  background: rgb(255, 255, 255);
+  /* background: url("../images/bacteria2.jpeg") no-repeat center center; */
+  margin-bottom: 20px;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+#bubble{
+  margin-top: 30px;
+}
+
+#welcome-paragraph{
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+  font-size:7ex;
+}
+
+#text{
+  color: rgb(39, 197, 145);
+  margin-bottom: 30px;
+  font-size:large;
+}
+
+#subtitle{
+  margin-top: 20px;
+  font-weight: light;
+  font-size: xx-large;
+  /* opacity: 10; */
+}
