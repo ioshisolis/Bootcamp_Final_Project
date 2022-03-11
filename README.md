@@ -30,11 +30,10 @@ As a team we decided to apply the next team roles for the entire project. The ma
 The rubric of the project was divided in to four segments with different tasks to be completed. We decided it to showcase our progress accordingly, therefore our results are dived it in to the following categories: Presentation, GitHub, Machine Learning, Data Base and Dashboard.
 
 
-### Presentation
 
-Presentation Link: https://docs.google.com/presentation/d/1mLjjnq5bFfYdqnkWDMU-8ioWCNJDzz2DnzwazVJTAno/edit?usp=sharing
+Presentation [Link](https://docs.google.com/presentation/d/1mLjjnq5bFfYdqnkWDMU-8ioWCNJDzz2DnzwazVJTAno/edit?usp=sharing).
 
-<details><summary>Segment 1</summary>
+<details><summary>Prsentation</summary>
   
 #### Selected topic:
 - Get Twitter data through an API to perform sentiment analysis with machine learning 
@@ -74,24 +73,36 @@ As a team we have stablished four channels of communication.
     - This are schedule ahead of time through slack one to one, or in our personal chat. 
     - We discuss urgent matters, most of the time this meeting are done Saturday and Sunday afternoos.
 
-</details>
-
-<details><summary>Segment 2</summary>
-    
-</details>
-
-<details><summary>Segment 3</summary>
-    
-</details>
   
   
+    ![CRISP-DM_Process_Diagram](https://user-images.githubusercontent.com/37987602/153728408-92d4675f-3d55-4068-94ca-8ff9974e0c97.png)
+  
+ #### Description of the data exploration phase of the project 
+
+ #### Description of the analysis phase of the project
+ 
+ #### Technologies, languages, tools, and algorithms used throughout the project
+  - HTML
+  - CSS
+  - JavaScript
+    - Leaflet
+    - D3
+  - Amazon Web Services
+  - Python
+    - Flask
+    - PySpark
+  - SQL - Postgress
+  
+ #### Result of analysis
+  
+ #### Recommendation for future analysis
+  
+ #### Anything the team would have done differently
+ 
 </details>
-  
-  
-### GitHub  
 
 
-<details><summary>Segment 1</summary>
+<details><summary>GitHub </summary>
   
   Our first week includes a README.md file that includes a description of the [communication protocols](https://github.com/ioshisolis/Bootcamp_Final_Project/edit/main/README.md#description-of-the-communication-protocols), individual branches and four commits per team member. 
   
@@ -101,23 +112,13 @@ As a team we have stablished four channels of communication.
   
 </details>
 
-<details><summary>Segment 2</summary>
+
+<details><summary>Machine Learning</summary>
   
-</details>
+  #### Description of data preprocessing
 
-<details><summary>Segment 3</summary>
-  
-</details>
-
-<details><summary>Segment 4</summary>
-  
-</details>
-
-
-### Machine Learning
-
-<details><summary>Segment 1</summary>
-  
+  #### Description of feature engineering and the feature selection, including the
+team's decision-making process
   
   Provisional machine learning model accomplishes the following
   - Takes in data in from the provisional database
@@ -132,267 +133,46 @@ As a team we have stablished four channels of communication.
 
    - NLP
     - List of Stop Words (Words to ignore) and why
-    According to Digital Tracking specialist, computer scientist and Master in systems analytics Gabriel Landaeta K., while dealing with tweets in spanish we must consider a number of words that do not add value to the analysis because they are not directly linked with an actual sentiment, but rather are only used as conectors that humans (and not computers) understand. These words are:
-    a
-    acá
-    ahí
-    ajena/o/s
-    al
-    algo
-    algún/a/o/s
-    allá/í
-    ambos
-    ante
-    antes
-    aquel
-    aquella/o/s
-    aquí
-    arriba
-    así
-    atrás
-    aun
-    aunque
-    bajo
-    bastante
-    bien
-    cabe
-    cada
-    casi
-    cierto/a/s
-    como
-    con
-    conmigo
-    conseguimos
-    conseguir
-    consigo
-    consigue
-    consiguen
-    consigues
-    contigo
-    contra
-    cual
-    cuales
-    cualquier/a/s
-    cuan
-    cuando
-    cuanto/a/s
-    de
-    dejar
-    del
-    demás
-    demasiada/o/s
-    dentro
-    desde
-    donde
-    dos
-    el
-    él
-    ella/o/s
-    empleáis
-    emplean
-    emplear
-    empleas
-    empleo
-    en
-    encima
-    entonces
-    entre
-    era/s
-    eramos
-    eran
-    eres
-    es
-    esa/e/o/s
-    esta/s
-    estaba
-    estado
-    estáis
-    estamos
-    están
-    estar
-    este/o/s
-    estoy
-    etc
-    fin
-    fue
-    fueron
-    fui
-    fuimos
-    gueno
-    ha
-    hace/s
-    hacéis
-    hacemos
-    hacen
-    hacer
-    hacia
-    hago
-    hasta
-    incluso
-    intenta/s
-    intentáis
-    intentamos
-    intentan
-    intentar
-    intento
-    ir
-    jamás
-    junto/s
-    la/o/s
-    largo
-    más
-    me
-    menos
-    mi/s
-    mía/s
-    mientras
-    mío/s
-    misma/o/s
-    modo
-    mucha/s
-    muchísima/o/s
-    mucho/s
-    muy
-    nada
-    ni
-    ningún/a/o/s
-    no
-    nos
-    nosotras/os
-    nuestra/o/s
-    nunca
-    os
-    otra/o/s
-    para
-    parecer
-    pero
-    poca/o/s
-    podéis
-    podemos
-    poder
-    podría/s
-    podríais
-    podríamos
-    podrían
-    por
-    por qué
-    porque
-    primero
-    puede/n
-    puedo
-    pues
-    que
-    qué
-    querer
-    quién/es
-    quienesquiera
-    quienquiera
-    quizá/s
-    sabe/s/n
-    sabéis
-    sabemos
-    saber
-    se
-    según
-    ser
-    si
-    sí
-    siempre
-    siendo
-    sin
-    sino
-    so
-    sobre
-    sois
-    solamente
-    solo
-    sólo
-    somos
-    soy
-    sr
-    sra
-    sres
-    sta
-    su/s
-    suya/o/s
-    tal/es
-    también
-    tampoco
-    tan
-    tanta/o/s
-    te
-    tenéis
-    tenemos
-    tener
-    tengo
-    ti
-    tiempo
-    tiene
-    tienen
-    toda/o/s
-    tomar
-    trabaja/o
-    trabajáis
-    trabajamos
-    trabajan
-    trabajar
-    trabajas
-    tras
-    tú
-    tu
-    tus
-    tuya/o/s
-    último
-    ultimo
-    un/a/o/s
-    usa/s
-    usáis
-    usamos
-    usan
-    usar
-    uso
-    usted/es
-    va/n
-    vais
-    valor
-    vamos
-    varias/os
-    vaya
-    verdadera
-    vosotras/os
-    voy
-    vuestra/o/s
-    y
-    ya
-    yo
-    
+    According to Digital Tracking specialist, computer scientist and Master in systems analytics Gabriel Landaeta K., while dealing with tweets in spanish we must consider a number of words that do not add value to the analysis because they are not directly linked with an actual sentiment, but rather are only used as conectors that humans (and not computers) understand. 
 
-  
-</details>
-
-<details><summary>Segment 2</summary>
-  
-</details>
-
-<details><summary>Segment 3</summary>
-  
-</details>
-
-<details><summary>Segment 4</summary>
-  
-</details>
-
-
-### Data Base
-
-<details><summary>Segment 1</summary>
  
+#### Description of how data was split into training and testing sets
+  
+
+#### Explanation of model choice, including limitations and benefits
+  
+#### Explanation of changes in model choice (if changes occurred between the
+  
+#### Segment 2 and Segment 3 deliverables)
+  
+#### Description of how model was trained (or retrained, if they are using an
+existing model)
+  
+#### Description and explanation of model’s confusion matrix, including final
+accuracy score
+
+  
+</details>
+
+
+<details><summary>Data Base</summary>
+ 
+  #### Database stores static data for use during the project
+  
   Provisional database accomplishes the following:
   - Sample data that mimics the expected final database structure or schema
   - Draft machine learning module is connected to the provisional database
 
+  
+  #### Database interfaces with the project in some format (e.g., scraping updates
+the database, or database connects to the model)
+  
   Important Questions:
 
+  
+  #### Includes at least two tables (or collections, if using MongoDB)
+  
+  
   - ### Data Types of each column
     - ### Twitter data Table
         This Table will Hold de Tweet Text scrapped by certain Keyword, and a ML algorithm will cluster it by sentiment.   
@@ -420,7 +200,10 @@ As a team we have stablished four channels of communication.
       | Lang      | String   | Language of the Tweet|          
 
 
-
+#### Includes at least one join using the database language (not including any
+joins in Pandas)
+  
+  
   - Why are we using this data?
 
     The twitter_data table stores the text of the tweets collected on a keyword, with the aim of classifying the data to find out the general feeling of the community on twitter about a topic.
@@ -436,50 +219,30 @@ As a team we have stablished four channels of communication.
 
     ![JOIN](https://github.com/ioshisolis/Bootcamp_Final_Project/blob/main/Data/DB_Join.png)
 
-     
-  
-  
-</details>
-
-<details><summary>Segment 2</summary>
-  
-</details>
-
-<details><summary>Segment 3</summary>
-  
-</details>
-
-<details><summary>Segment 4</summary>
+    
+ #### Includes at least one connection string (using SQLAlchemy or PyMongo) 
   
 </details>
 
 
-### Dashboard
-
-<details><summary>Segment 1</summary>
+<details><summary>Dashboard</summary>
   
 For this first segment, we schetched out the first draft of the dashboard to get a visual representation on how the data should be prepare in order to be presented at the last stage.
 
   ![Dashboard_FirstDraft](https://user-images.githubusercontent.com/37987602/153799300-8ecf4995-cb17-4f25-b419-0b47c25c9046.jpeg)
 
-</details>
+#### Images from the initial analysis
+  ![First draft](https://user-images.githubusercontent.com/37987602/157785331-1be13814-d39c-4e97-a5de-10072d77aa03.png)
 
-<details><summary>Segment 2</summary>
+#### Data (images or report) from the machine learning task
+  
+#### At least one interactive element
+  
+  ![DashBoard](https://user-images.githubusercontent.com/37987602/157783775-bb45a558-0303-476b-b284-ea05bbe42f9a.png)
+  ![TopRetweets](https://user-images.githubusercontent.com/37987602/157783924-378eee70-0ea9-4980-82a7-7131df5cce43.png)
+  ![InteractiveMap](https://user-images.githubusercontent.com/37987602/157783603-2040cbcb-1ea8-4e17-9866-905991361235.png)
+
   
 </details>
 
-<details><summary>Segment 3</summary>
-  
-</details>
 
-<details><summary>Segment 4</summary>
-  
-</details>
-
-## Summary
-
-<details><summary>CRISP Pocess Diagram</summary>
-  
-![CRISP-DM_Process_Diagram](https://user-images.githubusercontent.com/37987602/153728408-92d4675f-3d55-4068-94ca-8ff9974e0c97.png)
-
-</details>
