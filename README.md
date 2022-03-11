@@ -33,7 +33,7 @@ The rubric of the project was divided in to four segments with different tasks t
 
 Presentation [Link](https://docs.google.com/presentation/d/1mLjjnq5bFfYdqnkWDMU-8ioWCNJDzz2DnzwazVJTAno/edit?usp=sharing).
 
-<details><summary>Prsentation</summary>
+<details><summary>Presntation</summary>
   
 #### Selected topic:
 - Get Twitter data through an API to perform sentiment analysis with machine learning 
