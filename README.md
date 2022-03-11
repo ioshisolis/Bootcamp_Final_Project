@@ -4,6 +4,7 @@
 
 The scope of our final project consists of using multiple technologies to accomplish real world assignments for potential clients. During a four-week period our team will complete certain tasks that are detailed by category and dates, from planning to executing and presenting our results.
 
+The project consists of building a tool that can do sentiment analysis of tweets on specific words, based on machine learning. The user would be able to look for certain hashtags, then extracts the tweets that talk about that specific subject, apply the machine learning model to categorize the sentiment of the tweets
 
 ### Team
 
@@ -24,7 +25,8 @@ As a team we decided to apply the next team roles for the entire project. The ma
   ![TeamRoles](https://user-images.githubusercontent.com/37987602/153530443-7aaf8bc8-ca44-44aa-b725-17417fecaa0a.png)
 
 </details>
-  
+
+
 ## Results
 
 The rubric of the project was divided in to four segments with different tasks to be completed. We decided it to showcase our progress accordingly, therefore our results are dived it in to the following categories: Presentation, GitHub, Machine Learning, Data Base and Dashboard.
@@ -32,6 +34,8 @@ The rubric of the project was divided in to four segments with different tasks t
 
 
 Presentation [Link](https://docs.google.com/presentation/d/1mLjjnq5bFfYdqnkWDMU-8ioWCNJDzz2DnzwazVJTAno/edit?usp=sharing).
+
+YouTube Video [Link](https://www.youtube.com/watch?v=ZKMdety0WZQ)
 
 <details><summary>Presentation</summary>
   
@@ -46,9 +50,11 @@ Presentation [Link](https://docs.google.com/presentation/d/1mLjjnq5bFfYdqnkWDMU-
   - Politicians
   - Companies 
   - Social Responsibility
+  
+ Now more than ever we are surrounded of information and social media has allowed us to not only obtain information, but also share how we feel about it. That is why NGOs, Government Agencies, Politicians, Companies and many other industries need an accessible tool to search and digest what's currently happening around relevant topics
 
 #### Description of their source of data
-- Our data from twitter comprehends tweets, like, retweets, and location
+- The Twitter API enables programmatic access to Twitter in unique and advanced ways. Tap into core elements of Twitter like: Tweets, Direct Messages, Spaces, Lists, users, and more.
 
 #### Questions they hope to answer with the data
 - What do people think about a particular subject?
@@ -75,12 +81,24 @@ As a team we have stablished four channels of communication.
 
   
   
-    ![CRISP-DM_Process_Diagram](https://user-images.githubusercontent.com/37987602/153728408-92d4675f-3d55-4068-94ca-8ff9974e0c97.png)
+  
   
  #### Description of the data exploration phase of the project 
 
+- Clean the Tweets
+- Remove Special Characters
+- Get the most frequent words
+- Get User Location
+- Transform cities to [Lat,Lon]
+- Create Our own GeoJson File
+- Tweets by Verified Accounts
+- What they are talking about?
+- Filter Tweets by Language
+- Spanish
+  
  #### Description of the analysis phase of the project
  
+  
  #### Technologies, languages, tools, and algorithms used throughout the project
   - HTML
   - CSS
@@ -95,10 +113,58 @@ As a team we have stablished four channels of communication.
   
  #### Result of analysis
   
+  Depending on the word you are seraching our dashboard presents revelant infor such as
+  
+  - Top words
+  - Positve and Negative Percentages of Tweets
+  - Top Tweet with more Retweet
+  - Map with Location, Retweet Count, City, Country and Sentiment
+  
  #### Recommendation for future analysis
+  
+  Maybe use more informations and do it indifferent lenguages. 
+ 
   
  #### Anything the team would have done differently
  
+  Use other Social Networks to compare findings in all of them. 
+  
+  
+  <details><summary>Team Notes</summary>
+
+    
+### Role Play -  SharkTank presentation
+    
+#### Jorge 
+
+- Attention Grabber: Hi Sharks - Did you know that Twitter has over 290 million monthly users and every second on average, around 6,000 tweets are tweeted?
+- No human is able to keep up with that kind of gossip!
+- That is why we bring you The Twitter Analysis App. - TA.app
+- TA.app works with machine learning to understand the feelings behind the tweet 
+- Our dashboard reveals where and how the world feels about the topic you are searching for. 
+- Today we work as a data analysis company and our plan is to take TA.app to the world on a free version, a paid version for 5.99 month and a more robust version for business only.  
+- Today we ask for 250,000 dollars for 9% of our company.  (40% as a company, 51% between the five of us.)
+
+#### Our Team for Data Analysis: 
+- Claudio and Daniel our Engineers, 
+- Alexis our Data Scientist  
+- Luz on Marketing and Design
+- Myself on Legal and Business
+
+- We will be using the CRISP Methodology to tell you more about our project. 
+
+    
+#### Luz 
+- Finally Sharks, thanks to all this processing and technologies we are able to present you the TA.App. The web-based app that allows the users to visualize relevant current data around a selected keyword.
+- Just right after we placed the previous search on…, our code ran a request to the Twitter API to download the most recent tweets categorizing them based on the - Sentiment and then applying our machine learning process to deliver the prepared dataset to be visualized in our app.
+
+- So we can answer the business questions: what are they tweeting about?... for example we see here…, then what’s the impact and how are they feeling about it? - - Here the sentiment is mostly…, Who are the most influential users? And finally where are they talking about it?
+
+- So what do you say Sharks, are you ready to invest in TA.App?
+   
+  </details>  
+  
+  
 </details>
 
 
@@ -117,8 +183,12 @@ As a team we have stablished four channels of communication.
   
   #### Description of data preprocessing
 
-  #### Description of feature engineering and the feature selection, including the
-team's decision-making process
+
+ ![sentiment_diagram](https://user-images.githubusercontent.com/37987602/157793618-fea07568-8583-4034-ac18-60ffbb46378f.png)
+
+  #### Description of feature engineering and the feature selection, including the team's decision-making process
+  
+ ![CRISP-DM_Process_Diagram](https://user-images.githubusercontent.com/37987602/153728408-92d4675f-3d55-4068-94ca-8ff9974e0c97.png)
   
   Provisional machine learning model accomplishes the following
   - Takes in data in from the provisional database
